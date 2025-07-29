@@ -11990,4 +11990,30 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
+}
+
+#hero {
+  position: relative;
+  background-image: url("../images/hero.webp");
+  background-size: cover;
+  background-position: center;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  filter: brightness(1.1);
+}
+
+#hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(to bottom, #4f90d6, rgba(255, 255, 255, 0.4));
+  opacity: 0.8;
+  z-index: 1;
+}
+
+.hero-content {
+  z-index: 2;
 }/*# sourceMappingURL=custom.css.map */
