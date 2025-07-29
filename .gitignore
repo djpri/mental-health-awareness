@@ -1,0 +1,8 @@
+# Folders
+.github
+node_modules
+notes
+stories
+
+# Ignore source maps for CSS files
+*.css.map

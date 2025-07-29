@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Franklin:ital,wght@0,100..900;1,100..900&family=Metrophobic&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+// Include any default variable overrides here (though functions won’t be available)
+
+// THEME COLORS
+$primary:       #4f90d6;
+$secondary:     #2d3047;
+$success:       #20C997;
+$info:          #17A2B8;
+$warning:       #FFC107;
+$danger:        #ce4760;
+$light:         #fff6f1;
+$dark:          #212529;
+
+// Custom font variables
+$font-family-primary: 'Nunito Sans', sans-serif;
+$font-family-heading: 'Libre Franklin', sans-serif;
+$font-family-secondary: 'Metrophobic', sans-serif;
+
+// Import entire Bootstrap SCSS
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+// Custom styles
+body {
+  font-family: $font-family-primary;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: $font-family-heading;
+}
