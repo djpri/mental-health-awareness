@@ -11983,4 +11983,11 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Libre Franklin", sans-serif;
+}
+
+.custom-text-shadow {
+  background: linear-gradient(180deg, #eeeeee 0%, #ffffff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
 }/*# sourceMappingURL=custom.css.map */
