@@ -70,10 +70,14 @@ html {
   scroll-behavior: smooth;
 }
 
+.brand-name {
+  font-family: $font-family-heading;
+}
+
 // Improve hero section performance and accessibility
 #hero {
   position: relative;
-  background-image: url('../images/hero.webp');
+  background-image: url('../images/sora.webp');
   background-size: cover;
   background-position: center;
   background-attachment: scroll; // Better performance than fixed
