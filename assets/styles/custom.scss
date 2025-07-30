@@ -12,10 +12,24 @@ $danger:        #ce4760;
 $light:         #fff6f1;
 $dark:          #212529;
 
+// Enable box shadows globally - required for card shadows
+$enable-shadows: true;
+
 // Custom font variables
 $font-family-primary: 'Nunito Sans', sans-serif;
 $font-family-heading: 'Libre Franklin', sans-serif;
 $font-family-secondary: 'Metrophobic', sans-serif;
+
+// Button styles
+$btn-border-radius: 0px;
+$btn-border-radius-sm: 0px;
+$btn-border-radius-lg: 2rem;
+
+// Card styles
+$card-border-color: rgba(0, 145, 213, 0.18);
+$card-border-radius: 0.5rem;
+$card-border-width: 1px;
+$card-box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
 
 // Import entire Bootstrap SCSS
 @import "../../node_modules/bootstrap/scss/bootstrap";
