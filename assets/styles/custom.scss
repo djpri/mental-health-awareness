@@ -43,28 +43,50 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
   font-family: $font-family-heading;
+  font-weight: 600; // Add explicit weight for headings
+}
+
+// Improve button focus states for accessibility
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba($primary, 0.25);
 }
 
 .custom-text-shadow {
-    background: linear-gradient(180deg, #eeeeee 0%, #ffffff 100%);
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+  background: linear-gradient(180deg, #eeeeee 0%, #ffffff 100%);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  
+  // Fallback for browsers that don't support background-clip: text
+  @supports not (-webkit-background-clip: text) {
+    background: none;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
 }
 
-// Hero section background image
+// Add smooth scrolling for better UX
+html {
+  scroll-behavior: smooth;
+}
+
+// Improve hero section performance and accessibility
 #hero {
   position: relative;
   background-image: url('../images/hero.webp');
   background-size: cover;
   background-position: center;
+  background-attachment: scroll; // Better performance than fixed
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
-  // add lightness filter for better text visibility
   filter: brightness(1.1);
+  
+  @media (min-width: 768px) {
+    min-height: 55vh;
+  }
 }
 
 #hero::before {
@@ -121,4 +143,14 @@ h1, h2, h3, h4, h5, h6 {
   color: black;
   padding: 0.5rem 1rem;
   border-radius: 4px;
+}
+
+// Add hover effects for better interactivity
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  
+  &:hover {
+    transform: translateY(-2px);
+    box-shadow: rgba(60, 64, 67, 0.4) 0px 2px 8px 0px, rgba(60, 64, 67, 0.25) 0px 2px 6px 2px;
+  }
 }

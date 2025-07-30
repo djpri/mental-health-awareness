@@ -12017,6 +12017,11 @@ body {
 
 h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   font-family: "Libre Franklin", sans-serif;
+  font-weight: 600;
+}
+
+.btn:focus {
+  box-shadow: 0 0 0 0.2rem rgba(79, 144, 214, 0.25);
 }
 
 .custom-text-shadow {
@@ -12025,18 +12030,35 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   -webkit-background-clip: text;
   background-clip: text;
 }
+@supports not (-webkit-background-clip: text) {
+  .custom-text-shadow {
+    background: none;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}
 
 #hero {
   position: relative;
   background-image: url("../images/hero.webp");
   background-size: cover;
   background-position: center;
+  background-attachment: scroll;
   height: auto;
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   filter: brightness(1.1);
+}
+@media (min-width: 768px) {
+  #hero {
+    min-height: 55vh;
+  }
 }
 
 #hero::before {
@@ -12075,4 +12097,12 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6 {
   color: black;
   padding: 0.5rem 1rem;
   border-radius: 4px;
+}
+
+.card {
+  transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+}
+.card:hover {
+  transform: translateY(-2px);
+  box-shadow: rgba(60, 64, 67, 0.4) 0px 2px 8px 0px, rgba(60, 64, 67, 0.25) 0px 2px 6px 2px;
 }/*# sourceMappingURL=custom.css.map */
