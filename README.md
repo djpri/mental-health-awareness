@@ -22,6 +22,13 @@ With **83% of developers experiencing burnout** and **51% diagnosed with mental 
 - Create a supportive, calming digital environment
 - Raise awareness about the mental health crisis in our industry
 
+### Planning / Wireframing
+
+As this is a simple one page website, wireframing was done using basic sketches and notes on a whiteboard. The planning was mainly focused on the macro level, thinking about the main sections and flow of the site rather than detailed UI elements.
+
+<!-- pic -->
+<img src="assets/images/readme/wireframe.webp" alt="Wireframe Sketch" width="50%" />
+
 ## Features
 
 ### Current Features
