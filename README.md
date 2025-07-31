@@ -1,149 +1,226 @@
-# CodingBlue - A Mental Health Awareness Website for Software Developers
+# CodingBlue - Mental Health Awareness for Developers
 
-<!-- TODO: Place screenshot here -->
+**A beginner-friendly, accessible website focused on mental health awareness in the software development community.**
 
-A beginner-friendly, responsive webpage focused on mental health awareness, designed to provide accessible information and resources in a supportive and calming environment.
+**[View Live Site](https://djpri.github.io/mental-health-awareness/)**
 
-Note: This project is for demonstration purposes, which means that 
+---
 
 ## About This Project
 
-This website aims to reduce mental health stigma by providing:
-- Clear, accessible information about mental health conditions
-- Warning signs to watch for
-- Crisis resources and professional help options
-- Positive messaging and affirmations
-- A clean, supportive user experience using Bootstrap
+CodingBlue is a fictitious mental health awareness website specifically designed for software developers and the tech community. The website addresses the unique mental health challenges faced by developers, including burnout, impostor syndrome, and the high-pressure nature of the tech industry.
 
-The site is built with HTML, CSS, and Bootstrap, following web accessibility guidelines and UX design principles to ensure the information is easy to find and understand.
+<img src="assets/images/readme/tired-coder.webp" alt="Tired Coder" width="30%" />
+
+### Purpose
+
+With **83% of developers experiencing burnout** and **51% diagnosed with mental health conditions**, this project aims to:
+
+- Break the stigma surrounding mental health in tech
+- Provide accessible, developer-focused mental health information
+- Offer practical coping strategies and resources
+- Create a supportive, calming digital environment
+- Raise awareness about the mental health crisis in our industry
 
 ## Features
 
-- **Hero Section**: Welcoming message with positive mental health messaging
-- **Information Cards**: Bootstrap card components presenting mental health tips and common conditions
-- **Resource Links**: Crisis hotlines and professional help information
-- **Statistics Section**: Key mental health facts presented visually
-- **Responsive Design**: Mobile-friendly layout using Bootstrap
-- **Accessibility**: Semantic HTML and WCAG compliance
+### Current Features
+
+- **Hero Section**: Powerful opening with developer-focused statistics and call-to-action
+- **Statistics Dashboard**: Visual representation of mental health data in the tech industry
+- **Burnout Deep Dive**: Comprehensive information about developer burnout and its causes
+- **Neurodiversity Awareness**: Highlighting the visibility gap in neurodiversity representation
+- **Interactive Comparisons**: Visual contrast between unhealthy and healthy developer lifestyles
+- **Practical Guidance**: Accordion-style sections with actionable mental health advice
+- **Contact Form**: Safe space for users to reach out for support
+- **Crisis Resources**: Immediate access to mental health emergency services
+- **Responsive Design**: Optimized for all devices and screen sizes
+- **Accessibility**: WCAG 2.1 AA compliant with semantic HTML and proper contrast ratios
+
+---
 
 ## Screenshots
 
-### Desktop View
-![Desktop Homepage](screenshots/desktop-home.png)
-*Main homepage featuring hero section and navigation*
+### Desktop Experience
+![Desktop Homepage](assets/images/readme/desktop.webp)
 
-![Desktop Resources](screenshots/desktop-resources.png)
-*Resources section with crisis hotlines and professional help information*
 
-### Mobile View
-![Mobile Homepage](screenshots/mobile-home.png)
-*Mobile-responsive design showing hero section*
+### Mobile Experience
+<img src="assets/images/readme/mobile.webp" alt="Mobile Homepage" width="50%" />
 
-![Mobile Navigation](screenshots/mobile-nav.png)
-*Mobile navigation menu*
+---
 
-## Deployment to GitHub Pages
+## Design Choices
 
-Follow these steps to deploy your website to GitHub Pages:
+### Color Palette
 
-### Prerequisites
-- A GitHub account
-- Git installed on your computer
-- Your project files ready
+The color scheme was carefully selected using [Coolors.co](https://coolors.co/4f90d6-20c997-f9eae1-ce4760-2d3047) to create a calming yet professional atmosphere:
 
-### Step 1: Create a GitHub Repository
-1. Go to [GitHub.com](https://github.com) and sign in
-2. Click the "+" icon in the top right corner
-3. Select "New repository"
-4. Name your repository (e.g., `mental-health-awareness`)
-5. Make sure it's set to "Public"
-6. Check "Add a README file" if you haven't created one
-7. Click "Create repository"
+- **Primary Blue (#4f90d6)**
+- **Success Green (#20c997)**:
+- **Light Cream (#f9eae1)**:
+- **Accent Red (#ce4760)**:
+- **Dark Navy (#2d3047)**:
 
-### Step 2: Upload Your Files
-**Option A: Using GitHub Web Interface**
-1. In your new repository, click "uploading an existing file"
-2. Drag and drop your project files or click "choose your files"
-3. Add a commit message like "Initial website upload"
-4. Click "Commit changes"
+### Typography
 
-**Option B: Using Git Commands**
+Font pairings were carefully chosen using [FontJoy.com](https://fontjoy.com/) to balance readability with emotional warmth:
+
+- **Primary Font**: Nunito Sans - Clean, approachable sans-serif for body text
+- **Heading Font**: Libre Franklin - Professional yet friendly for headings
+- **Accent Font**: Metrophobic - Modern, tech-appropriate for special elements
+
+### Imagery
+
+All images are AI-generated using various services to ensure:
+- Copyright-free usage
+- Consistent visual style
+- Representation of diverse developers
+- WebP format for optimal performance
+- Meaningful alt text for accessibility
+
+---
+
+## Technologies Used
+
+### Languages & Frameworks
+- **HTML5**: Semantic markup structure
+- **CSS3/SCSS**: Custom styling with Sass preprocessing
+- **Bootstrap 5**: Responsive framework and components
+- **JavaScript**: Form handling and interactive elements
+
+### Tools & Resources
+- **Google Fonts**: Typography integration
+- **Font Awesome**: Icon library for visual enhancement
+- **GitHub Pages**: Hosting and deployment
+- **VS Code**: Development environment
+- **Git**: Version control
+- **AI Tools**: Content generation and code assistance
+
+### Performance Optimizations
+- WebP image format for faster loading
+- Custom CSS compilation with Sass
+- Bootstrap component optimization
+- Semantic HTML for better SEO and accessibility
+
+---
+
+## Accessibility Features
+
+This website prioritizes accessibility to ensure mental health resources are available to everyone:
+
+- **Semantic HTML**: Proper heading hierarchy and meaningful element structure
+- **WCAG 2.1 AA Compliance**: Meeting international accessibility standards
+- **High Contrast**: Carefully tested color combinations for visibility
+- **Alt Text**: Descriptive alternative text for all images
+- **Keyboard Navigation**: Full site functionality without mouse input
+- **Screen Reader Support**: Optimized for assistive technologies
+- **Focus Indicators**: Clear visual feedback for interactive elements
+- **Responsive Text**: Scalable fonts that remain readable when zoomed
+
+---
+
+## AI Usage & Development Process
+
+AI played a key role in developing this project in the following ways:
+
+- **Content Generation**: Google Gemini's "Deep Research" feature provided comprehensive mental health statistics and information (subject to fact-checking).
+- **Image Creation**: AI-generated imagery ensuring consistent style and copyright compliance.
+- **Code Generation**: GitHub Copilot assisted with boilerplate code to reduce development time. This code was later reviewed and optimized by myself.
+- **Code Review**: GitHub Copilot assisted with code optimization and accessibility improvements.
+- **Problem Solving**: AI tools helped debug issues and suggest improvements.
+
+---
+
+## Testing & Validation
+
+### Validation Tools
+- **HTML Validator**: W3C Markup Validation Service
+- **CSS Validator**: W3C CSS Validation Service
+- **Accessibility**: WAVE Web Accessibility Evaluation Tool
+- **Performance**: Google Lighthouse auditing
+- **Responsive Design**: Chrome DevTools device simulation
+
+### Performance Metrics
+- Lighthouse Performance Score: **92**
+- Accessibility Score: **94**
+- Best Practices Score: **100**
+- SEO Score: **100**
+
+![Performance metrics screenshot](assets/images/readme/lighthouse.webp)
+
+
+---
+
+## Deployment
+
+### GitHub Pages Deployment
+
+This project is deployed using GitHub Pages. To deploy your own version:
+
+1. **Fork or Clone** this repository
+2. **Navigate** to your repository settings on GitHub
+3. **Select** "Pages" from the left sidebar
+4. **Choose** "Deploy from a branch" as the source
+5. **Select** the "main" branch and "/ (root)" folder
+6. **Save** and wait for deployment (usually 1-2 minutes)
+7. **Access** your live site at `https://yourusername.github.io/mental-health-awareness/`
+
+### Local Development
+
+To run this project locally:
+
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY-NAME.git
+git clone https://github.com/djpri/mental-health-awareness.git
 
-# Navigate to the repository folder
-cd YOUR-REPOSITORY-NAME
+# Navigate to project directory
+cd mental-health-awareness
 
-# Copy your project files to this folder
-# Then add, commit, and push
-git add .
-git commit -m "Initial website upload"
-git push origin main
+# Open index.html in your browser
+# Or use a local server like Live Server in VS Code
 ```
 
-### Step 3: Enable GitHub Pages
-1. In your repository, click on "Settings" (top menu)
-2. Scroll down to "Pages" in the left sidebar
-3. Under "Source", select "Deploy from a branch"
-4. Choose "main" branch
-5. Leave the folder as "/ (root)"
-6. Click "Save"
-
-### Step 4: Access Your Live Website
-1. GitHub will provide a URL like: `https://YOUR-USERNAME.github.io/YOUR-REPOSITORY-NAME/`
-2. It may take a few minutes for the site to become available
-3. You can find the URL in the "Pages" settings or in the "About" section of your repository
-
-### Step 5: Update Your Website
-To make changes to your live website:
-1. Edit your files locally or directly on GitHub
-2. Commit and push changes to the main branch
-3. GitHub Pages will automatically update your live site
+---
 
 ## Project Structure
 
 ```
 mental-health-awareness/
-│
-├── index.html              # Main HTML file
-├── assets/
-│   └── styles/
-│       └── style.css       # Custom CSS styles
-├── screenshots/            # Website screenshots
-├── README.md               # This file
-└── .github/
-    └── copilot-instructions.md
+├── index.html                 # Main HTML file
+├── README.md                  # This documentation
+└── 📦assets/
+    ├── 📂images/             # Contains all site images
+    └── 📂styles/
+        ├── main.css           # Compiled main stylesheet
+        ├── main.scss          # Sass source file for custom styles
+        ├── custom.scss        # Additional custom styles
+        └── main.css.map       # Source map for CSS debugging
 ```
+---
 
-## Technologies Used
+## Content & Research
 
-- **HTML5**: Semantic markup for accessibility
-- **CSS3**: Custom styling and layout
-- **Bootstrap 5.3.2**: Responsive framework and components
-- **WebP Images**: Optimized image format for better performance
+### Data Sources
 
-## Accessibility Features
+The mental health statistics and information presented on this website were compiled using Google Gemini's "Deep Research" feature. While comprehensive research was conducted, users should note:
 
-- Semantic HTML elements for screen readers
-- Proper heading hierarchy (h1-h6)
-- Alt text for all images
-- High contrast color scheme
-- Keyboard navigation support
-- WCAG 2.1 AA compliance
+- This is a demonstrative project for educational purposes
+- Statistics are representative of current industry trends
+- Always consult qualified mental health professionals for personal guidance
+- Crisis resources provide immediate professional support
 
-## Resources and Credits
+### Content Development
 
-### Mental Health Resources
-- **Crisis Text Line**: Text HOME to 741741
-- **National Suicide Prevention Lifeline**: 988
-- **International Association for Suicide Prevention**: [https://www.iasp.info/resources/Crisis_Centres/](https://www.iasp.info/resources/Crisis_Centres/)
+Key content areas were developed through careful research:
+- Industry-specific mental health statistics
+- Developer burnout causes and symptoms
+- Neurodiversity in tech workplaces
+- Practical coping strategies for developers
+- Crisis intervention resources
 
-### Technical Resources
-- [Bootstrap Documentation](https://getbootstrap.com/docs/5.3/getting-started/introduction/)
-- [MDN Web Docs](https://developer.mozilla.org/)
-- [Web Content Accessibility Guidelines (WCAG)](https://www.w3.org/WAI/WCAG21/quickref/)
+---
 
 ## Contributing
 
-This is an educational project, but suggestions for improving accessibility or user experience are welcome. Please open an issue or submit a pull request.
+As this is a demonstrative individual project, contributions are welcome but not required. If you have suggestions for improvement or additional resources, feel free to reach out.
