@@ -24,9 +24,8 @@ With **83% of developers experiencing burnout** and **51% diagnosed with mental 
 
 ### Planning / Wireframing
 
-As this is a simple one page website, wireframing was done using basic sketches and notes on a whiteboard. The planning was mainly focused on the macro level, thinking about the main sections and flow of the site rather than detailed UI elements.
+As this was for a simple one page website, wireframing was done using basic sketches and notes on a whiteboard. The planning was mainly focused on the macro level, thinking about the main sections and flow of the site rather than detailed UI elements.
 
-<!-- pic -->
 <img src="assets/images/readme/wireframe.webp" alt="Wireframe Sketch" width="50%" />
 
 ## Features
@@ -40,7 +39,7 @@ As this is a simple one page website, wireframing was done using basic sketches 
 - **Interactive Comparisons**: Visual contrast between unhealthy and healthy developer lifestyles
 - **Practical Guidance**: Accordion-style sections with actionable mental health advice
 - **Contact Form**: Safe space for users to reach out for support
-- **Crisis Resources**: Immediate access to mental health emergency services
+- **Resources section**: Immediate access to mental health services
 - **Responsive Design**: Optimized for all devices and screen sizes
 - **Accessibility**: WCAG 2.1 AA compliant with semantic HTML and proper contrast ratios
 
@@ -187,7 +186,6 @@ cd mental-health-awareness
 # Open index.html in your browser
 # Or use a local server like Live Server in VS Code
 ```
-
 ---
 
 ## Project Structure
@@ -210,21 +208,11 @@ mental-health-awareness/
 
 ### Data Sources
 
-The mental health statistics and information presented on this website were compiled using Google Gemini's "Deep Research" feature. While comprehensive research was conducted, users should note:
+The mental health statistics and information presented on this website were compiled using Google Gemini's "Deep Research" feature. While comprehensive research was conducted by the AI, users should note:
 
 - This is a demonstrative project for educational purposes
-- Statistics are representative of current industry trends
+- All statistics are subject to verification and may not reflect the most current data
 - Always consult qualified mental health professionals for personal guidance
-- Crisis resources provide immediate professional support
-
-### Content Development
-
-Key content areas were developed through careful research:
-- Industry-specific mental health statistics
-- Developer burnout causes and symptoms
-- Neurodiversity in tech workplaces
-- Practical coping strategies for developers
-- Crisis intervention resources
 
 ---
 
